@@ -1,0 +1,37 @@
+nav{
+    background-color: #BE3144;
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    animation-fill-mode: forwards;
+    animation-name: navAnimate;
+    animation-duration: 6s;
+    opacity: 0;
+}
+
+.nav-buttons button{
+    width: 200px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 24pt;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.nav-buttons button:hover{
+    background-color: #45567D;
+    transition: .2s;
+}
+
+@keyframes navAnimate {
+    0%, 40%{
+        opacity: 0;
+    }
+    60%, 100%{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,81 @@
+.projects{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+    top: 6vh;
+}
+
+.project{
+    position: relative;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    cursor: default;
+}
+
+.project-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    width: 600px;
+    border-radius: 20px;
+}
+
+.project-img img{
+    width: 600px;
+    transition: .5s;
+}
+
+.project:hover .project-img img{
+    transform: scale(1.1);
+    filter: brightness(50%);
+    transition: .5s;
+}
+
+.project-name h2{
+    transition: .5s;
+}
+
+.project:hover .project-name h2{
+    color: #BE3144;
+    transition: .5s;
+}
+
+.project-buttons{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    top: 30%;
+    opacity: 0;
+    transition: .5s;
+}
+
+.project-buttons button, .project-buttons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    background-color: rgb(118, 118, 118);
+    color: white;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.project:hover .project-buttons{
+    opacity: 1;
+    transition: .5s;
+}
+.project-buttons button:hover, .project-buttons a:hover{
+    background-color: #BE3144;
+    transition: .5s;
+}

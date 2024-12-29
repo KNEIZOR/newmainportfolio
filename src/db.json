@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "name": "Календарь",
+            "link": "https://tubular-mooncake-c9d81d.netlify.app/",
+            "img": "https://sun9-58.userapi.com/impg/uN1nWpWF3k6wuYiddq3Hm2olkm662sGDzz0XUw/JjG3DehYV3Y.jpg?size=1920x945&quality=95&sign=fd20a19d303d46553ef5928069c62101&type=album",
+            "stack": ["html, css, js", "react"],
+            "about": "Калькулятор со сменой темы"
+        },
+        {
+            "id": "1735388986020",
+            "name": "Календарь",
+            "link": "https://tubular-mooncake-c9d81d.netlify.app/",
+            "stack": ["html,css,js", "react"],
+            "img": "https://sun9-58.userapi.com/impg/uN1nWpWF3k6wuYiddq3Hm2olkm662sGDzz0XUw/JjG3DehYV3Y.jpg?size=1920x945&quality=95&sign=fd20a19d303d46553ef5928069c62101&type=album",
+            "about": "Калькулятор со сменой темы"
+        }
+    ],
+    "blogs": [
+        {
+            "id": "1",
+            "name": "Концерт Тони Раут и Гарри Топор",
+            "img": "picture",
+            "about": "отлично провели время"
+        }
+    ]
+}

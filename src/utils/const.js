@@ -1,0 +1,6 @@
+export const ADMIN_ROUTE = '/admin'
+export const CLIENT_ROUTE = '/'
+export const BLOG_ROUTE = '/blog'
+export const PROJECTS_ROUTE = '/projects'
+export const PROJECT_ROUTE = '/projects/:id'
+export const LOGIN_ROUTE = '/login'

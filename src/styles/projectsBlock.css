@@ -1,0 +1,103 @@
+.projects-block{
+    cursor: default;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    position: absolute;
+    top: 200vh;
+    z-index: 101;
+    background-color: #BE3144;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-blocks{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: gray;
+    transition: .5s;
+}
+
+.project-block:hover{
+    background-color: #5c72a4;
+    transition: .5s;
+}
+
+.project-block a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-block img{
+    width: 600px;
+    transition: .5s;
+}
+
+.project-block .img__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.project-block h2{
+    color: white;
+    padding: 10px;
+}
+
+.project-block:hover img{
+    filter: brightness(115%);
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.projects-block button {
+    cursor: pointer;
+    margin-top: 20px;
+    width: 340px;
+    height: 40px;
+    background-color: #45567D;
+    color: white;
+    font-size: 16pt;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.projects-block button:hover {
+    background-color: #5c72a4;
+    transition: .5s;
+}
+
+.projects-blocks, .projects-block h1, .projects-block button{
+    transform: translateY(50px);
+    opacity: 0;
+    transition-property: transform, opacity;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.projects-block-view, h1.projects-block-view, button.projects-block-view{
+    transform: none;
+    opacity: 1;
+}

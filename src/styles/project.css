@@ -1,0 +1,99 @@
+.project-page{
+    position: absolute;
+    top: 6vh;
+    width: 100vw;
+    height: auto;
+}
+
+.project-page-top{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.project-page-img{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+.project-page-img img{
+    height: 50vh;
+}
+
+.project-page-text{
+    width: 100%;
+    position: relative;
+}
+
+.project-page-name{
+    text-align: center;
+    font-size: 32pt;
+}
+
+.stack-list{
+    margin-left: 40px;
+}
+
+.stack-list h2{
+    font-size: 28pt;
+}
+
+.stack-item{
+    font-size: 20pt;
+}
+
+.project-page-bottom{
+    margin-top: 30px;
+}
+
+.project-page-about{
+    text-align: center;
+}
+
+.project-about{
+    font-size: 16pt;
+    margin-left: 40px;
+}
+
+.project-page-link{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(118, 118, 118);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 40px;
+    font-size: 16pt;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.project-page-link:hover{
+    background-color: #BE3144;
+    transition: .5s;
+}
+
+.back-btn{
+    width: 150px;
+    height: 50px;
+    margin: 30px 40px;
+    background-color: rgb(118, 118, 118);
+    color: white;
+    border-radius: 20px;
+    font-size: 18pt;
+    transition: .5s;
+}
+
+.back-btn:hover{
+    background-color: #BE3144;
+    transition: .5s;
+}

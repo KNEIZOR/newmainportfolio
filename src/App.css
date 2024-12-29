@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Bebas+Neue&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Playwrite+AU+VIC:wght@100..400&family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Bebas+Neue&family=Lobster&family=Oleo+Script+Swash+Caps:wght@400;700&family=Pacifico&family=Permanent+Marker&family=Playwrite+AU+VIC:wght@100..400&family=Secular+One&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    :root {
+        scroll-behavior: auto;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    background-color: #232325;
+    color: white;
+    overflow-x: hidden;
+    animation-fill-mode: forwards;
+    animation-name: scroll;
+    animation-duration: 8s;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.456);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover{
+    color: white;
+}
+
+.active{
+    color: rgba(128, 128, 128, 0.456);
+    transition: .5s;
+}
+
+@keyframes scroll {
+    0% {
+        overflow-y: hidden;
+    }
+    100% {
+        overflow-y: visible;
+    }
 }

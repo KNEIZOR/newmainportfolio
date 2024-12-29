@@ -1,0 +1,25 @@
+.admin{
+    width: 100vw;
+    height: 94vh;
+    position: relative;
+    top: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin button{
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(118, 118, 118);
+    transition: .5s;
+}
+
+.admin button:hover{
+    background-color: #BE3144;
+    transition: .5s;
+}

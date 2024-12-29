@@ -1,0 +1,35 @@
+.menu{
+    z-index: 1002;
+    position: fixed;
+    right: 60px;
+    top: 50vh;
+}
+
+.anchor{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    font-size: 16pt;
+    margin-bottom: 10px;
+    color: rgba(128, 128, 128, 0.456);
+    cursor: pointer;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(128, 128, 128, 0.456);
+    border-radius: 50%;
+    margin-left: 30px;
+    transition: .5s;
+}
+
+.anchor:hover{
+    color: white;
+    transition: .5s;
+}
+
+.anchor:hover .circle{
+    background-color: white;
+    transform: scale(0.7);
+}
